@@ -5,7 +5,7 @@ def get_book_text(filepath):
 
 
 def main():
-    text = get_book_text("C:/Github_repositories/bookbot/books/frankenstein.txt") 
+    text = get_book_text("books/frankenstein.txt") 
     print(text)
 
 if __name__ == "__main__":
